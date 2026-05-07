@@ -31,7 +31,7 @@ const AnnouncementBar = () => {
   };
 
   return (
-    <div className="sticky top-0 z-50 w-full bg-[#cc0000] border-b border-[#9C1C26]/30 py-1.5 px-4 shadow-[0_4px_20px_rgba(0,0,0,0.3)] backdrop-blur-md">
+    <div className="sticky top-0 z-50 w-full bg-[#b43257] border-b border-[#b43257]/30 py-1.5 px-4 shadow-[0_4px_20px_rgba(0,0,0,0.3)] backdrop-blur-md">
       {/* Sparkle Icons Overlay */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden opacity-20">
         <Sparkles 
@@ -53,12 +53,12 @@ const AnnouncementBar = () => {
                 className="w-3.5 h-3.5 text-[#ffffff] animate-pulse shrink-0" 
                 strokeWidth={2.5}
               />
-              <p className="text-[#ffffff] text-[12px] font-bold tracking-tight text-center">
+              <p className="text-[#ffffff] text-[10.3px] font-bold tracking-tight text-center">
                 You have{" "}
                 <span className="text-[#ffffff] tabular-nums font-black">
                   {formatTime(timeLeft)}
                 </span>{" "}
-                minutes left to unlock your Verizon reward
+                minutes left to unlock your The Cheesecake Factory reward
               </p>
             </div>
         </div>
@@ -66,7 +66,7 @@ const AnnouncementBar = () => {
         {/* Bottom Row: Subtext with decorative lines */}
         <div className="flex items-center gap-2 mt-0.5">
           <div className="h-[1px] w-4 bg-[#ffffff]"></div>
-          <p className="text-[#ffffff] text-[9px] uppercase tracking-[0.15em] font-bold">
+          <p className="text-[#ffffff] text-[8.5px] uppercase tracking-[0.15em] font-bold">
             Complete the steps before access expires
           </p>
           <div className="h-[1px] w-4 bg-[#ffffff]"></div>

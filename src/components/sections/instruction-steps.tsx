@@ -33,17 +33,17 @@ const steps: Step[] = [
   },
   {
     icon: <Unlock className="w-3 h-3 sm:w-3.5 sm:h-3.5" />,
-    text: "Unlock your VERIZON Rewards",
+    text: "Unlock your THE CHEESECAKE FACTORY Rewards",
   },
 ];
 
 export default function InstructionSteps() {
   return (
     <section className="relative w-full max-w-md mx-auto px-4 sm:px-5 mb-4 mt-3">
-      <div className="relative rounded-[1.5rem] sm:rounded-[2rem] p-2 sm:p-4 bg-white/5 backdrop-blur-md border-2 border-[#cc0000]/30 shadow-[0_8px_32_rgb(204, 0, 0)] overflow-hidden group/box transition-all duration-500 hover:border-[#cc0000]/50 hover:scale-[1.01]">
+      <div className="relative rounded-[1.5rem] sm:rounded-[2rem] p-2 sm:p-4 bg-white/5 backdrop-blur-md border-2 border-[#b43257]/30 shadow-[0_8px_32_rgb(204, 0, 0)] overflow-hidden group/box transition-all duration-500 hover:border-[#b43257]/50 hover:scale-[1.01]">
         <div className="absolute inset-0 rounded-[1.5rem] sm:rounded-[2rem] overflow-hidden pointer-events-none">
           <img
-            src="https://i.imgur.com/GesNwB4.jpeg"
+            src="https://i.imgur.com/9f9SWxS.jpeg"
             alt=""
             className="w-full h-full object-cover opacity-10"
           />
